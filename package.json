@@ -1,0 +1,14 @@
+{
+  "name": "mqtt2influx",
+  "version": "1.0.0",
+  "description": "Simple way of consuming mqtt data using a client and posting the data to influx.  The telegraf mqtt consumer doesn't work very well due to data types, so I created my own.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frederique Lemieux",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.8"
+  }
+}
